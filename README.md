@@ -10,9 +10,9 @@
 修改后链接是 https://www.iesdouyin.com/web/api/v2/aweme/post/?sec_uid=MS4wLjABAAAAKbhcZVC80794_3SNxHLzZEglkO5sDKRbZpN0TcbO2GA&count=21&max_cursor={$max_cursor}&aid=1128&_signature=SWImtgAAKTmhuATLVJI21EliJq&dytk=  
 
 <img src="https://github.com/chengshihard/douyin-video-download/blob/main/images/QQ%E6%88%AA%E5%9B%BE20210319190950.png?raw=true" width="375">
-path改成你本地保存视频的文件夹路径   
-startTime是13位的时间戳，比如你要采集从2020-01-01 00:00:00开始的视频，就把2020-01-01 00:00:00转换成13位的时间戳填上即可  
-requestUrl是上面修改过的url  
+path改成你本地保存视频的文件夹路径     
+startTime是13位的时间戳，比如你要采集从2020-01-01 00:00:00开始的视频，就把2020-01-01 00:00:00转换成13位的时间戳填上即可    
+requestUrl是上面修改过的url    
 
 需要golang环境  
 go run main.go   
